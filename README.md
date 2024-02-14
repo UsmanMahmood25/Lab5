@@ -2,8 +2,7 @@
 
 ## Team Members
 
-| Name | 
+| Name |
 |----------|
-| Usman Mahmood   | 
-| Deven Powell   | 
-
+| Usman Mahmood   |
+| Deven Powell   |
