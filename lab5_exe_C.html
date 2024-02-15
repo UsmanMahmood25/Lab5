@@ -239,11 +239,14 @@ Description : DOM Elements.
 
         // Task 6: Set the src attribute of the image
         const logoImage = document.querySelector("img");
-        logoImage.src = "./images/example.svg"; // Change the source to the correct path
+        logoImage.setAttribute('src', "./images/example.svg");
 
         // Task 7: Add a new item in the navigation menu
         const newNavItem = document.createElement("li");
-        newNavItem.innerHTML = '<a href="#">Blog</a>';
+        const newNavLink = document.createElement('a');
+        newNavLink.textContent = "Blog";
+        newNavLink.setAttribute("href", "#");
+        newNavItem.appendChild(newNavLink);
         const navList = document.querySelector("nav ul");
         navList.appendChild(newNavItem);
 
